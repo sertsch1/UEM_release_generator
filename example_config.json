@@ -1,0 +1,31 @@
+{
+	"name": "YourPluginName",
+	"ssh_path": "~/.ssh/id_rsa",
+	"git_repo_url": "git@github.com:ue4plugins/StreetMap.git",
+	"destination_dir": "..\\YourPluginName_zip\\",
+	"log_file_names": false,
+	"excluded_directories": [
+		".git"
+	],
+	"excluded_files": [
+		".clang-format",
+		".gitattributes",
+		".gitignore",
+		"README.md",
+		"run-clang-format.py"
+	],
+	"versions": [
+		{
+			"version":"5.2",
+			"branch":"5.2"
+		},
+		{
+			"version":"5.3",
+			"branch":"5.3"
+		},
+		{
+			"version":"5.4",
+			"branch":"5.4"
+		}
+	]
+}
